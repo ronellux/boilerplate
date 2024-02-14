@@ -1,1 +1,113 @@
 /* Add screen styles below */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --main-bg-color: #E9E9E9;
+    --primary-text-color: #424242;
+    --accent-color: #FF3F3C;
+}
+
+body {
+    background: var(--main-bg-color);
+    color: var(--primary-text-color);
+    font-family: "inter";
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+}
+
+main {
+    background: url(polaroid.png) no-repeat center 100px;
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.hero {
+    text-align: center;
+    min-height: 800px;
+}
+
+.details p{
+    text-align:center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.hero h2 {
+    font-size: 9em;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.details h3{
+    font-size: 50px;
+    line-height: 1em;
+    text-align: center;
+    margin-bottom: 40px;
+    
+}
+
+
+.details ul li {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0 0 0 40px;
+    text-align:left;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    
+    
+}
+
+.details ul li.qr {
+    background: url(qrcode-solid.svg) no-repeat center left;
+}
+
+.details ul li.wifi {
+    background: url(wifi-solid.svg) no-repeat center left;
+}
+
+.details ul li.cloud {
+    background: url(cloud-arrow-up-solid.svg) no-repeat center left;
+}
+
+.details ul li.family {
+    background: url(photo-film-solid.svg) no-repeat center left;
+}
+
+.cta {
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 40px;
+    line-height: 10px;
+    text-align: center;
+    
+}
+
+.submit{
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  width: 50%;
+  border: none;
+padding: 20px;
+  text-align: center;
+  background-color: #FF3F3C;
+}
+
